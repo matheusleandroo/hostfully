@@ -3,6 +3,9 @@
 A responsive React application built for the **Hostfully Test**, following modern frontend development best practices.  
 This project is fully configured with **Tailwind CSS**, **ESLint**, **Prettier**, and **EditorConfig**, and includes automated tests to ensure high code quality.
 
+> ⚠️ **Important:** This project requires **Node.js version 24.8.0** for proper execution.  
+> Using a different Node version may cause installation or runtime issues.
+
 ---
 
 ## 🚀 Features
@@ -36,7 +39,7 @@ This project is fully configured with **Tailwind CSS**, **ESLint**, **Prettier**
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/matheusleandroo/hostfully.git
+git clone https://github.com/YOUR_USERNAME/hostfully.git
 cd hostfully
 yarn install
 ```
@@ -45,6 +48,12 @@ or
 
 ```bash
 npm install
+```
+
+Ensure you are using Node.js **v24.8.0**. You can verify it with:
+
+```bash
+node -v
 ```
 
 ---
