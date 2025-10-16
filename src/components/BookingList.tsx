@@ -21,7 +21,7 @@ export function BookingList({
       {items.map((b) => (
         <li
           key={b.id}
-          className="card flex flex-col md:flex-row md:items-center md:justify-between gap-3"
+          className="card flex flex-col md:flex-row md:items-center md:justify-between gap-3 md:w-full md:max-w-full sm:w-[fit-content]"
         >
           <div>
             <h3 className="font-semibold">
@@ -36,7 +36,7 @@ export function BookingList({
               <p className="text-sm text-slate-500 mt-1">{b.notes}</p>
             )}
           </div>
-          <div className="flex gap-2">
+          <div className="flex gap-2 justify-end">
             <button className="btn" onClick={() => onEdit(b.id)}>
               Edit
             </button>
