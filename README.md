@@ -39,7 +39,7 @@ This project is fully configured with **Tailwind CSS**, **ESLint**, **Prettier**
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hostfully.git
+git clone https://github.com/matheusleandroo/hostfully.git
 cd hostfully
 yarn install
 ```
